@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Чудо Задрота</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Pushster&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="icon" href="icon.ico">
+	</head>
+<body style="display: none;">
+<header class="header">
+    <div class="container">
+        <div class="header_sost">
+            <div class="header_logo">
+               <a class="header_link" href="chydozadrota.html"><h1>Chydo Zadrota</h1></a>
+             </div>
+             <div class="ds_logo">
+                 <a href="https://discord.gg/7ej4UbMX" target="_blank"><img src="icons8-discord-48.png" alt=""></a>
+             </div>
+            <nav class="nav">
+                <a class="nav_link" active href="index.html">Главная</a>
+                <a class="nav_link" href="#">Про мод</a>
+                <a class="nav_link" target="_blank" href="https://steamcommunity.com/sharedfiles/filedetails/?id=2794246788">Скачать мод</a>
+            </nav>
+        </div>
+    </div>
+</header>
+
+
+
+
+
+<div class="intro">
+    <div class="video">
+        <video class="video__med" src="video3.mp4" autoplay muted loop>
+        </video>
+    </div>
+    <div class="main">
+            <div class="main_in">
+                <div class="wrapper">
+                    <div class="slider">
+                        <div class="slider_item">
+                            <img class="slider_pht1" width="485px" height="325px" src="ert.jpg" alt="">
+                            <div class="slider_text">
+                                <p>Привет друг, я Мику! Я рада приветствовать тебя на вкладке "Про мод".
+                                    Тут ты узнаешь побольше про "Чудо задрота"! И да, я советую смотреть картинки.   Удачки:) P.S. Читай внимательно!
+                                </p>
+                            </div>
+                            <img class="slider_pht2" width="350px" height="450px" src="miku1.png" alt="">
+                        </div>
+                        <div class="slider_item">
+                            <img class="slider_pht1" width="485px" height="325px" src="hata1.jpg" alt="">
+                            <div class="slider_text">
+                                <p>Как ты уже мог понять "Чудо задрота" содержит множество различных сцен и интеркативов.
+                                    Майкл Джексон и Олег Винник не дадут тебе заскучать! Ты круто проведёшь свое время!
+                                </p>
+                            </div>
+                            <img class="slider_pht2" height="450px" src="Merged.png" alt="">
+                            
+                        </div>
+                        <div class="slider_item">
+                            <img class="slider_pht1" width="485px" height="325px" src="ert1.jpg" alt="">
+                            <div class="slider_text">
+                                <p>
+                                    В "Чудо Задрота" мод начинается с простой комнатушке в простом украинском городе. Главный герой
+                                    - Семён. Решает сходить в магазин (или же поиграть в кс P.S ваш выбор).
+                                </p>
+                            </div>
+                            <img class="slider_pht2" width="326px" height="450px" src="free-png.ru-47-337x450.png" alt="">
+                        </div>
+                        <div class="slider_item">
+                            <img class="slider_pht1" width="485px" height="325px" src="ert2.jpg" alt="">
+                            <div class="slider_text">
+                                <p>После чего вам звонит телефон, ваш давний друг хочет позвать вас в бар. Вы договорились встретится через час.
+                                    Но у вас темнеет в глазах, после чего вы приходите в сознание и решаете сесть в автобус...
+                                </p>
+                            </div>
+                            <img class="slider_pht2" height="450px" src="anim.png" alt="">
+                        </div>
+                    </div>
+            </div>
+        </div>
+</div>
+
+
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="slick.min.js"></script>
+<script src="es.js"></script>
+<script>
+    $(document).ready(function(){
+ var body = $("body");
+ body.fadeIn(400);
+ $(document).on("click", "video:not([src='video3.mp4'])", function(e) {
+  e.preventDefault();
+  $("body").fadeOut(400);
+  var self = this;
+  setTimeout(function () {
+   window.location.href = $(self).attr("href");
+  }, 400);
+ });
+});
+</script>
+
+<script src="https://github.com/ChydoZadrota/chydozadrota.git"></script>
+
+</body>
+
+</html>
