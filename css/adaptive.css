@@ -1,0 +1,38 @@
+
+@media (min-width: 1400){
+    .nav{
+        font-size: 20px;
+    }
+}
+
+
+@media (max-width: 1005px){
+    .container{
+        max-width: 80%;
+    }
+
+    .nav_link{
+    }
+
+    .slider_item{
+        max-width: 80%;
+    }
+
+
+    .slider_pht1{
+        max-width: 360px;
+        max-height: 325px;
+    }
+
+    .slider_pht1:hover{
+        max-width: 485px;
+    }
+
+}
+
+
+@media (max-width: 600px){
+    .container{
+    max-width: 120%;
+}
+}
